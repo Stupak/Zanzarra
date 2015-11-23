@@ -106,3 +106,15 @@ opacity:0.8;
 .social a:nth-child(3):hover i {
 	color: #3F729B;
 }
+.blog_banner p {
+	text-align: center;
+	font-family: 'Brixton';
+	font-size: 90px;
+	color: white;
+}
+.grid_14 {
+	padding-left: 255px;
+}
+.grid_14 p {
+	width: 690px;
+}
