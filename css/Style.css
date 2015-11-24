@@ -1,5 +1,9 @@
 nav li {
 	display: inline;
+	padding-left: 100px;
+}
+nav ul {
+	float: right;
 }
 .logo {
 	float: left;
@@ -9,13 +13,13 @@ nav li {
 nav {
 	float: right;
 	margin-top: 30px;
+
 }
 nav a {
 	text-decoration: none;
 	font-family: 'Brixton';
 	color: black;
 	font-size: 20px;
-	padding-left: 90px;
 	-webkit-transition-duration: 0.5s; 
 	-o-transition-duration: 0.5s; 
 	-moz-transition-duration: 0.5s; 
@@ -26,6 +30,7 @@ color: #808080;
 }
 .banner {
 	margin-bottom: 20px;
+	width: 100%;
 }
 div h2 {
 	font-family: 'Brixton';
@@ -34,12 +39,12 @@ div h2 {
 	text-align: center;
 }
 div h4 {
-	font-family: 'Open Sans Extrabold';
+	font-family: 'Open Sans Extrabold', sans-serif;
 	font-size: 24px;
 	color: #808080;
 }
 .text p {
-	font-family: 'Open Sans Semibold';
+	font-family: 'Open Sans Semibold', sans-serif;
 	font-size: 22px;
 	color: #808080;
 	line-height: 40px;
@@ -52,13 +57,13 @@ footer {
 
 }
 footer p {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	float: left;
 	margin-bottom: 50px;
 }
 h5 {
-	font-family: 'Open Sans Semibold';
+	font-family: 'Open Sans Semibold', sans-serif;
 	color: black;
 	font-size: 18px;
 	margin-top: 20px;
@@ -106,15 +111,63 @@ opacity:0.8;
 .social a:nth-child(3):hover i {
 	color: #3F729B;
 }
+.blog_banner {
+	position: relative;
+}
+.blog_banner img {
+	width: 100%;
+}
 .blog_banner p {
 	text-align: center;
 	font-family: 'Brixton';
 	font-size: 90px;
 	color: white;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 13%;
+	width: 690px;
 }
 .grid_14 {
-	padding-left: 255px;
-}
-.grid_14 p {
 	width: 690px;
+	margin: 0 auto;
+}
+.blog_label {
+	width: 690px;
+}
+.blog_label h5 {
+	font-family: 'Open Sans Semibold', sans-serif;
+	font-size: 18px;
+	color: black;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.blog_label p {
+	font-family: 'Open Sans Light', sans-serif;
+	font-size: 16px;
+	color: #808080;
+	margin-bottom: 40px;
+}
+.blog_label h5 a {
+	font-family: 'Open Sans Semibold', sans-serif;
+	color: #006396;
+	font-size: 18px;
+	text-decoration: underline;
+}
+.blog_label h5 a:hover {
+	text-decoration: none;}
+.blog_text {
+	font-family: 'Open Sans Regular', sans-serif;
+	font-size: 22px;
+	color: #808080;
+	line-height: 36px;
+}
+.blog_text img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.grid_6 {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
