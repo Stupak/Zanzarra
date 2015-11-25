@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Brixton Medium';
+    src: local('Brixton Medium');
+    src: url("../fonts/Brixton Medium.ttf");
+}
+@font-face {
+    font-family: 'Brixton Bold';
+    src: local('Brixton Bold');
+    src: url("../fonts/Brixton Bold.ttf");
+}
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: local('Open Sans Semibold'), src: local('OpenSans-Semibold');
+    src: url("../fonts/OpenSans-Semibold.ttf");       
+}
+@font-face {
+    font-family: 'Open Sans Extrabold';
+    src: local('Open Sans Extrabold'), src: local('OpenSans-ExtraBold');
+    src: url("../fonts/OpenSans-ExtraBold.ttf");       
+}
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: local('Open Sans Regular'), src: local('OpenSans-Regular');
+    src: url("../fonts/OpenSans-Regular.ttf");       
+}
+@font-face {
+    font-family: 'Open Sans Light';
+    src: local('Open Sans Light'), src: local('OpenSans-Light');
+    src: url("../fonts/OpenSans-Light.ttf");       
+}
 nav li {
 	display: inline;
 	padding-left: 100px;
@@ -17,7 +47,7 @@ nav {
 }
 nav a {
 	text-decoration: none;
-	font-family: 'Brixton';
+	font-family: 'Brixton Medium';
 	color: black;
 	font-size: 20px;
 	-webkit-transition-duration: 0.5s; 
@@ -28,12 +58,12 @@ nav a {
 nav a:hover {
 color: #808080;
 }
-.banner {
+.banner img {
 	margin-bottom: 20px;
 	width: 100%;
 }
 div h2 {
-	font-family: 'Brixton';
+	font-family: 'Brixton Bold';
 	color: black;
 	font-size: 40px;
 	text-align: center;
@@ -54,10 +84,11 @@ div h4 {
 }
 footer {
 	clear: both;
+	margin-top: 40px;
 
 }
 footer p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Regular', sans-serif;
 	font-size: 14px;
 	float: left;
 	margin-bottom: 50px;
@@ -111,15 +142,48 @@ opacity:0.8;
 .social a:nth-child(3):hover i {
 	color: #3F729B;
 }
-.blog_banner {
+.blog_banner, {
 	position: relative;
 }
-.blog_banner img {
+.blog_banner, .lviv img {
 	width: 100%;
+}
+.lviv {
+	position: relative;
+}
+.lviv h1 {
+	font-family: 'Brixton Bold';
+	font-size: 44px;
+	color: white;
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 15%;
+	width: 300px;
+	line-height: 50px;
+}
+.lviv h2 {
+	font-family: 'Brixton';
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 30%;
+	letter-spacing: 0.5px;
+}
+.lviv p {
+	font-family: 'Brixton';
+	font-size: 22px;
+	color: white;
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 34%;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+
 }
 .blog_banner p {
 	text-align: center;
-	font-family: 'Brixton';
+	font-family: 'Brixton Bold';
 	font-size: 90px;
 	color: white;
 	position: absolute;
@@ -170,4 +234,61 @@ opacity:0.8;
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+#map {
+margin-top: 30px;
+margin-bottom: 20px;
+float: left;
+}
+.form ul {
+	float: right;
+	margin-top: 15px;
+}
+.form li {
+	list-style: none;
+	margin-bottom: 10px;
+	width: 490px;
+}
+.form label {
+	display: block;
+	font-size: 30px;
+	font-family: 'Brixton Bold';
+	text-align: center;
+}
+.form textarea {
+	width: 470px;
+	height: 100px;
+	border: 2px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 10px;
+
+}
+.form input {
+	height: 50px;
+	width: 470px;
+	border: 2px solid black;
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+input.form_submit {
+	height: 50px;
+	width: 490px;
+	margin-top: 10px;
+	border-radius: 30px;
+	background: black;
+	font-family: 'Open Sans Extrabold', sans-serif;
+	font-size: 20px;
+	color: white;
+
+}
+input.form_submit:hover {
+	cursor: pointer;
+	background: #1a1a1a;
+	border: none;
 }
