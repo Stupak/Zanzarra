@@ -1,0 +1,24 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   Blog.html
+#	new file:   Contact.html
+#	modified:   Zanzarra Main.html
+#	modified:   css/Style.css
+#	new file:   fonts/OpenSans-Bold.ttf
+#	new file:   fonts/OpenSans-BoldItalic.ttf
+#	new file:   fonts/OpenSans-ExtraBold.ttf
+#	new file:   fonts/OpenSans-ExtraBoldItalic.ttf
+#	new file:   fonts/OpenSans-Italic.ttf
+#	new file:   fonts/OpenSans-Light.ttf
+#	new file:   fonts/OpenSans-LightItalic.ttf
+#	new file:   fonts/OpenSans-Regular.ttf
+#	new file:   fonts/OpenSans-Semibold.ttf
+#	new file:   fonts/OpenSans-SemiboldItalic.ttf
+#	new file:   img/Lviv.jpg
+#
+

@@ -28,11 +28,13 @@
     src: local('Open Sans Light'), src: local('OpenSans-Light');
     src: url("../fonts/OpenSans-Light.ttf");       
 }
-nav li {
-	display: inline;
+.nav li {
+	display: inline-block;
 	padding-left: 100px;
+	zoom: 1;
+	*display: inline;
 }
-nav ul {
+.nav ul {
 	float: right;
 }
 .logo {
@@ -40,22 +42,22 @@ nav ul {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-nav {
+.nav {
 	float: right;
 	margin-top: 30px;
-
 }
-nav a {
+.nav a {
 	text-decoration: none;
-	font-family: 'Brixton Medium';
+	font-family: 'Brixton Medium', 'Brixton';
 	color: black;
 	font-size: 20px;
 	-webkit-transition-duration: 0.5s; 
 	-o-transition-duration: 0.5s; 
 	-moz-transition-duration: 0.5s; 
 	transition-duration: 0.5s;
+
 }
-nav a:hover {
+.nav a:hover {
 color: #808080;
 }
 .banner img {
@@ -63,7 +65,7 @@ color: #808080;
 	width: 100%;
 }
 div h2 {
-	font-family: 'Brixton Bold';
+	font-family: 'Brixton Bold','Brixton';
 	color: black;
 	font-size: 40px;
 	text-align: center;
@@ -82,12 +84,11 @@ div h4 {
 .text {
 	margin-bottom: 20px;
 }
-footer {
+.footer {
 	clear: both;
 	margin-top: 40px;
-
 }
-footer p {
+.footer p {
 	font-family: 'Open Sans Regular', sans-serif;
 	font-size: 14px;
 	float: left;
@@ -107,10 +108,12 @@ h5 {
 	margin-top: 10px;
 }
 .grid_6 img:hover {
-opacity:0.8;
+	opacity:0.8;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); /* IE7 */
+	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
 }
 .grid_6 h5 a {
-	font-family: 'Open Sans Semibold';
+	font-family: 'Open Sans Semibold', sans-serif;
 	color: #006396;
 	font-size: 18px;
 	margin-top: 20px;
@@ -142,17 +145,17 @@ opacity:0.8;
 .social a:nth-child(3):hover i {
 	color: #3F729B;
 }
-.blog_banner, {
+.blog_banner {
 	position: relative;
 }
-.blog_banner, .lviv img {
+.blog_banner img, .lviv img {
 	width: 100%;
 }
 .lviv {
 	position: relative;
 }
 .lviv h1 {
-	font-family: 'Brixton Bold';
+	font-family: 'Brixton Bold', 'Brixton';
 	font-size: 44px;
 	color: white;
 	position: absolute;
@@ -179,11 +182,10 @@ opacity:0.8;
 	margin-top: 34%;
 	text-decoration: none;
 	letter-spacing: 0.5px;
-
 }
 .blog_banner p {
 	text-align: center;
-	font-family: 'Brixton Bold';
+	font-family: 'Brixton Bold','Brixton';
 	font-size: 90px;
 	color: white;
 	position: absolute;
@@ -252,11 +254,11 @@ float: left;
 .form label {
 	display: block;
 	font-size: 30px;
-	font-family: 'Brixton Bold';
+	font-family: 'Brixton Bold', 'Brixton';
 	text-align: center;
 }
 .form textarea {
-	width: 470px;
+	width: 466px;
 	height: 100px;
 	border: 2px solid black;
 	margin-top: 10px;
@@ -264,14 +266,13 @@ float: left;
 	font-size: 16px;
 	font-family: sans-serif;
 	padding: 10px;
-
 }
 .form input {
 	height: 50px;
-	width: 470px;
+	width: 490px;
 	border: 2px solid black;
 	margin-top: 10px;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: sans-serif;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -282,10 +283,9 @@ input.form_submit {
 	margin-top: 10px;
 	border-radius: 30px;
 	background: black;
-	font-family: 'Open Sans Extrabold', sans-serif;
-	font-size: 20px;
+	font-family: 'Open Sans Extrabold', 'Verdana', sans-serif;
+	font-size: 16px;
 	color: white;
-
 }
 input.form_submit:hover {
 	cursor: pointer;

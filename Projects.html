@@ -9,60 +9,77 @@
     <link rel="stylesheet"  href="css/1200_24_10_10.css">
     <link rel="stylesheet"  href="font-awesome-4.4.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon">
+    <script type="text/javascript">
+  /* <![CDATA[ */
+   function externalLinks() {
+    links = document.getElementsByTagName("a");
+    for (i=0; i<links.length; i++) {
+      link = links[i];
+      if (link.getAttribute("href") && link.getAttribute("rel") == "external")
+      link.target = "_blank";
+    }
+   }
+   window.onload = externalLinks;
+  /* ]]> */ 
+ </script>
 </head>
 <body>
-<div class="container_24 clearfix">
-  <header>
-    <div class="logo">
-      <a href="Zanzarra Main.html"><img src="img/Logo.jpg"></a>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="Zanzarra Main.html">Home</a></li>
-        <li><a href="Projects.html">Projects</a></li>
-        <li><a href="Blog.html">Blog</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-</div>
-<div class="container_24">
-      <h2>Latest projects</h2>
-      <div class="grid_6">
-      <a href=""><img src="img/Eco.jpg"></a>
-      <h5>Site for <a href="">Eco Homes</a></h5>
+  <div class="container_24 clearfix">
+    <header>
+      <div class="logo">
+        <a href="Zanzarra Main.html"><img src="img/Logo.jpg"></a>
       </div>
-      <div class="grid_6">
-      <a href=""><img src="img/BGIE.jpg"></a>
-      <h5>Site for <a href="">BGIE Company</a></h5>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="Zanzarra Main.html">Home</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="grid_6">
-      <a href=""><img src="img/Amic.jpg"></a>
-      <h5>Site and corporate identity for <a href="">Amic Property</a></h5>
-      </div>
-      <div class="grid_6">
-      <a href=""><img src="img/HT.jpg"></a>
-      <h5>Site  for <a href="">Heavenly Temptations</a></h5>
-      </div>
-   <div class="divider">
-    <img src="img/footer divider.jpg">
-  </div>   
-  <footer>
-      <p>© Zanzarra 2014-2015</p>
-      <div class="social">
-      <ul>
-      <a href="https://www.facebook.com/vyacheslav.stupak.8" title="Like us!">
-            <i class="fa fa-facebook fa-2x"></i>
-          </a>
-          <a href="https://twitter.com/" title="Tweet us!">
-            <i class="fa fa-twitter fa-2x"></i>
-          </a>
-          <a href="https://www.instagram.com/v_stupak/" title="Look at us!">
-            <i class="fa fa-instagram fa-2x"></i>
-          </a>
-        </ul>      
+    </header>
+  </div>
+  <div class="container_24">
+        <h2>Latest projects</h2>
+        <div class="grid_6">
+        <a href=""><img src="img/Eco.jpg"></a>
+        <h5>Site for <a href="http://ecohomesni.com/index.htm" rel="external">Eco Homes</a></h5>
         </div>
-  </footer> 
-</div>
+        <div class="grid_6">
+        <a href=""><img src="img/BGIE.jpg"></a>
+        <h5>Site for <a href="https://bestgiftideaever.com/" rel="external">BGIE Company</a></h5>
+        </div>
+        <div class="grid_6">
+        <a href=""><img src="img/Amic.jpg"></a>
+        <h5>Site and corporate identity for <a href="http://amicproperty.com" rel="external">Amic Property</a></h5>
+        </div>
+        <div class="grid_6">
+        <a href=""><img src="img/HT.jpg"></a>
+        <h5>Site for <a href="" rel="">Heavenly Temptations</a></h5>
+        </div>
+     <div class="divider">
+      <img src="img/footer divider.jpg">
+    </div>
+    <div class="footer">   
+      <footer>
+          <p>© Zanzarra 2014-2015</p>
+          <div class="social">
+              <ul>
+                <a href="https://www.facebook.com/vyacheslav.stupak.8" title="Like us!" rel="external">
+                <i class="fa fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://twitter.com/" title="Tweet us!" rel="external">
+                <i class="fa fa-twitter fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com/v_stupak/" title="Look at us!" rel="external">
+                <i class="fa fa-instagram fa-2x"></i>
+                </a>
+              </ul>   
+            </div>
+      </footer>
+    </div> 
+  </div>
 </body>
 </html>
